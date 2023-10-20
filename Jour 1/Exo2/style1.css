@@ -1,0 +1,153 @@
+1.
+.box {
+    /* va sélection toute les class "box" du fichier html */
+}
+
+2.
+#container:first-child {
+    /* selectionne le premiere enfant de la div avec l'id "container" */
+
+}
+
+3.
+#list li ou ul li {
+    /* selectionne tous les <li> de la balise <ul> avec l'id "list" */
+
+}
+4.
+#list:last-child {
+    /* selectionne le derniere enfant de la balise <ul> avec son id "list" */
+}
+
+5.
+p {
+    /* sans présicion il prendra en compte toute les balises <p> */
+
+}
+
+6.
+a[href="https://"] {
+    /* selectionne toutes les balise <a> avec un attribut href="https://" */
+}
+
+7.
+a[href*=".com"] {
+    /* selectionne toutes les balises <a> avec un attribut href qui contient le strig ".com" */
+
+}
+
+8.
+a[href$="example"] {
+    /* selectionne toutes les balises <a> avec l'attrivut href qui contient "example" */
+}
+
+9.
+table > td {
+
+}
+
+10.
+td < tr:first-child  {
+
+}
+
+11.
+th + td {
+    /* j'ai vue sur le site juliepirio qu'il fallais mettre + pour selectionner des div frere */
+}
+
+12.
+td + th {
+
+}
+
+13.
+#container {
+
+}
+14.
+#container + .box {
+
+}
+
+15.
+#container :nth-child(1-9) {
+
+}
+
+16.
+#container :first-child {
+
+}
+
+17.
+#container :nth-child(4-9) {
+
+}
+
+18.
+#container :nth-child(5-9) {
+
+}
+
+19.
+#container :nth-child(6-9) {
+
+}
+
+20.
+#container :nth-child(7-9) {
+
+}
+
+21.
+#container :nth-child(8-9) {
+
+}
+
+22.
+#container :nth-child(9) {
+
+}
+
+23.
+#container :last-child {
+
+}
+
+24.
+#container < tr {
+
+}
+
+25.
+#container :nth-child(0-4) {
+
+}
+
+26.
+#container :nth-child(0-5) {
+
+}
+
+27.
+#container :nth-child(0-6) {
+
+}
+
+28.
+#container :nth-child(0-7) {
+
+}
+
+29.
+#container :nth-child(0-8) {
+
+}
+
+30.
+#container :nth-child(1-7) {
+
+}
+
+

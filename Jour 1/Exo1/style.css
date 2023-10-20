@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(103, 46, 46);
+    height: 55px;
+    
+}
+
+
+nav li {
+    display: inline;
+    position: relative;
+    left: 300px;
+    margin: 2px 2px;
+    border: solid 1px aqua ;
+
+}
+
+nav a:hover {
+    background-color: beige;
+    color: burlywood;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containt1 {
+    display: inline-flex;
+    padding: 5px;
+    
+}
+
+
+
+.three {
+    position: relative;
+    left: 310px;
+    top: -438px;
+}
+
+.four {
+    position: relative;
+    left: 580px;
+    top: -850px;
+}
+
+.five {
+    position: relative;
+    top: -823px;
+}
+
+.six {
+    position: relative;
+    left: 313px;
+    top: -1135px;
+}
+
+.seven {
+    position: relative;
+    top: -1130px;
+}
+
